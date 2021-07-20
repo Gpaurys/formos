@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML formos</title>
+</head>
+<body>
+    <h1>HTML formu elementai</h1>
+    <form action="answer.html">
+        <label for="fname"></label>
+        <input type="text" name="" placeholder="Vardas"><br><br>
+        <label for="sname"></label>
+        <input type="text" name="" placeholder="Pavarde"><br><br>
+        <label for="fname"></label>
+        <input type="text" name="vardas" placeholder="El. pastas"><br><br>
+        <label for="fname"></label>
+        <input type="numbers" name="vardas" placeholder="Telefonas"><br><br>
+        <hr>
+
+        <label for="transport"><h3>Pasirinkite nuomai transporto priemone:</h3></label>
+        <select name="transport" id="transport">
+            <option value="auto">Automobilis</option>
+            <option value="bike">Dviratis</option>
+            <option value="sqooter">Paspirtukas</option>
+        </select>
+        <hr>
+
+        <h3>Ar turite vairuotojo pazymejima?</h3>
+        <input type="radio" id="yes" value="Taip" name="amzius">
+        <label for="yes">Taip</label>
+        <input type="radio" id="no" value="Ne" name="amzius">
+        <label for="no">Ne</label>
+        <br><br>
+        <hr>
+
+        <label for="datemin">Nuomos pradzia:</label>
+        <input type="date" id="datemin" name="datemin" min="2021-07-20"><br><br>
+      
+        <label for="datemax">Nuomos pabaiga:</label>
+        <input type="date" id="datemax" name="datemax" max="2021-07-27"><br><br>
+        <hr><br>
+
+
+        <label for="datemin">Nuomos pradzia:</label></br>
+        <input type="datetime-local" id="datemin" name="datemin" min="2021-07-20">
+        <br><br><label for="birthdaytime">Nuomos pabaiga:</label><br>
+        <input type="datetime-local" id="datemax" name="datemax" max="2021-07-27">
+        <br><br><hr>
+
+
+        <label for="city"><h3>Pasirinkite miesta transporto priemones nuomai:</h3></label>
+        <select name="city" id="city">
+            <option value="vilnius">Vilnius</option>
+            <option value="kaunas">Kaunas</option>
+            <option value="klaipeda">Klaipeda</option>
+            <option value="siauliai">Siauliai</option>
+            <option value="panevezys">Panevezys</option>
+        </select>
+        <hr>
+
+
+
+
+        <br><br><input type="submit" value="Pateikti">
+       
+
+
+
+    </form>
+</body>
+</html>
